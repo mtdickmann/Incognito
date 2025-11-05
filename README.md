@@ -17,49 +17,70 @@ A light, high-contrast theme designed for shell scripts, system editing, and any
 
 ---
 
-### 🧩 Installation (Manual)
+### 🧩 Installation Options
 
-If you downloaded the theme as a `.vsix` file, you can install it directly into VS Code — no marketplace needed.
+You can install **Incognito Theme** in a few different ways — pick what fits you best.
 
-#### 🪟 Windows
-1. Download the latest release file (for example):  
-   ```text
-   incognito-1.0.8.vsix
-   ```
-2. Open **Visual Studio Code**.  
-3. Open a terminal using the menu:  
-   **View → Terminal** (or click the **Terminal** tab at the bottom).  
-4. Run the following command (adjust the path if needed):  
+---
+
+#### ⚡ Option 1 – Install directly from GitHub (Recommended)
+
+**🪟 Windows (PowerShell in VS Code):**
+```powershell
+Invoke-WebRequest -Uri "https://github.com/mtdickmann/Incognito/releases/download/v1.0.8/incognito-1.0.8.vsix" -OutFile "$env:TEMP\incognito.vsix"
+code --install-extension "$env:TEMP\incognito.vsix"
+```
+
+**🐧 Linux / 🧠 macOS:**
+```bash
+curl -L -o /tmp/incognito.vsix https://github.com/mtdickmann/Incognito/releases/download/v1.0.8/incognito-1.0.8.vsix
+code --install-extension /tmp/incognito.vsix
+```
+
+This downloads and installs the latest release directly — no manual download needed.
+
+---
+
+#### 🪟 Option 2 – Manual local install
+
+If you prefer to download manually:
+
+1. Go to the releases page:  
+   [https://github.com/mtdickmann/Incognito/releases](https://github.com/mtdickmann/Incognito/releases)
+2. Download the `.vsix` file (e.g. `incognito-1.0.8.vsix`)
+3. Open **VS Code**
+4. Use the menu: **View → Terminal** (or the Terminal tab at the bottom)
+5. Run:
    ```bash
    code --install-extension "C:\Users\<YOUR_USERNAME>\Downloads\incognito-1.0.8.vsix"
    ```
-5. Restart VS Code.  
-6. Open the Command Palette (**Ctrl+Shift+P**) → run **“Preferences: Color Theme”** → select **Incognito**.  
+6. Restart VS Code  
+7. Open **Command Palette → Preferences: Color Theme → Incognito**
 
-#### 🐧 Linux / 🧠 macOS
-1. Open a terminal in the folder where the `.vsix` file is saved.  
-2. Run:  
-   ```bash
-   code --install-extension ./incognito-1.0.8.vsix
-   ```
-3. Restart VS Code and pick **Incognito** under Color Themes.  
+---
+
+#### ☁️ Option 3 – Marketplace (Coming Soon)
+
+Once published, you’ll be able to install it with a single command:
+```bash
+code --install-extension mtdickmann.incognito
+```
+Check the repo’s README or Marketplace listing for updates.
 
 ---
 
 ### 🔄 Updating the Theme
-If a new version is released, uninstall the old one first:
-
+To update manually:
 ```bash
 code --uninstall-extension mtdickmann.incognito
 ```
-
-Then reinstall the latest `.vsix` using the same method above.
+Then reinstall the latest `.vsix` using one of the methods above.
 
 ---
 
 ### ⚖️ License
 
-This theme is provided under a custom license — you’re free to use, modify, and enjoy it personally or internally, but redistribution or resale without permission is prohibited.  
+This theme is provided under a **custom license** — you’re free to use, modify, and enjoy it personally or internally, but redistribution or resale without permission is prohibited.  
 
 See [LICENSE.txt](./LICENSE.txt) for full details.
 
