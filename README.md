@@ -3,7 +3,7 @@
 </p>
 
 # Incognito Theme  
-**“VS Code in Notepad++ disguise.”**
+## “VS Code in Notepad++ disguise.”
 
 A light, high-contrast theme designed for shell scripts, system editing, and anyone who wants VS Code to *look* like a classic text editor but *feel* like a modern IDE.
 
