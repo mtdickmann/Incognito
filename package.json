@@ -1,0 +1,39 @@
+{
+  "name": "local-steel-bright",
+  "displayName": "Steel Bright",
+  "publisher": "mtd0",
+  "version": "1.0.6",
+  "description": "A clean, high-contrast light theme for shell scripts and coding clarity.",
+  "repository": {
+  "type": "git",
+  "url": "https://example.com/your-theme-repo.git"
+},
+"engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "steel",
+    "bright",
+    "light",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#f2f2f2",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "steel-bright",
+        "label": "Steel Bright",
+        "uiTheme": "vs",
+        "path": "./themes/steel-bright-color-theme.json"
+      }
+    ]
+  }
+}
