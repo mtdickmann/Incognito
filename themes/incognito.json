@@ -1,0 +1,78 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Incognito",
+  "type": "light",
+  "colors": {
+    "editor.background": "#f6f8fa",
+    "editor.foreground": "#202124",
+    "editor.lineHighlightBackground": "#e5ebf1",
+    "editor.selectionBackground": "#cde1f9",
+    "editorCursor.foreground": "#1f6feb"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#008000",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted", "string.unquoted.heredoc.shell"],
+      "settings": {
+        "foreground": "#A31515"
+      }
+    },
+    {
+      "scope": ["keyword", "keyword.control", "storage.type"],
+      "settings": {
+        "foreground": "#0000FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other.readwrite", "variable.parameter", "variable.language"],
+      "settings": {
+        "foreground": "#800080"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.character", "constant.language"],
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#795E26"
+      }
+    },
+    {
+      "scope": ["meta.function-call.shell"],
+      "settings": {
+        "foreground": "#795E26"
+      }
+    },
+    {
+      "scope": ["string.unquoted.heredoc.shell"],
+      "settings": {
+        "foreground": "#B8860B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["keyword.operator.heredoc.shell"],
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#008000"
+      }
+    }
+  ]
+}

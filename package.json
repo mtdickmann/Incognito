@@ -32,7 +32,7 @@
         "id": "steel-bright",
         "label": "Steel Bright",
         "uiTheme": "vs",
-        "path": "./themes/steel-bright-color-theme.json"
+        "path": "./themes/incognito.json"
       }
     ]
   }
