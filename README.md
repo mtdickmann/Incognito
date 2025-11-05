@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="MD_Logo.svg" alt="Incognito Theme Logo" width="200"/>
 </p>
 
