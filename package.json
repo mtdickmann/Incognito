@@ -1,39 +1,44 @@
 {
-  "name": "local-steel-bright",
-  "displayName": "Steel Bright",
-  "publisher": "mtd0",
-  "version": "1.0.6",
-  "description": "A clean, high-contrast light theme for shell scripts and coding clarity.",
+  "name": "incognito",
+  "displayName": "Incognito",
+  "publisher": "mtdickmann",
+  "version": "1.0.8",
+  "description": "VS Code in Notepad++ disguise.",
   "repository": {
-  "type": "git",
-  "url": "https://example.com/your-theme-repo.git"
-},
-"engines": {
+    "type": "git",
+    "url": "https://github.com/mtdickmann/Incognito.git"
+  },
+  "engines": {
     "vscode": "^1.13.0"
   },
   "categories": [
     "Themes"
   ],
   "keywords": [
-    "steel",
-    "bright",
+    "incognito",
+    "notepad++",
     "light",
     "theme",
-    "color-theme"
+    "color-theme",
+    "notepad-style",
+    "clean",
+    "minimal",
+    "developer"
   ],
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#f2f2f2",
+    "color": "#f6f8fa",
     "theme": "light"
   },
   "contributes": {
     "themes": [
       {
-        "id": "steel-bright",
-        "label": "Steel Bright",
+        "id": "incognito-theme",
+        "label": "Incognito",
         "uiTheme": "vs",
         "path": "./themes/incognito.json"
       }
     ]
-  }
+  },
+  "license": "SEE LICENSE.txt"
 }

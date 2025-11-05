@@ -1,10 +1,10 @@
-Steel Bright Theme – Script Editor Mode
-Copyright (c) 2025 Michael Dickmann. All rights reserved.
+Incognito Theme – VS Code in Notepad++ disguise  
+Copyright (c) 2025 Michael Dickmann. All rights reserved.  
 
-Permission is hereby granted to use, copy, and modify this software for personal, educational, or internal business purposes, provided that this notice and the copyright information remain intact in all copies or derivative works.
+Permission is hereby granted to use, copy, and modify this software for personal, educational, or internal business purposes, provided that this notice and the copyright information remain intact in all copies or derivative works.  
 
-Redistribution or sale of this software, in whole or in part, is not permitted without explicit written consent from the author.
+Redistribution or sale of this software, in whole or in part, is not permitted without explicit written consent from the author.  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR DISTRIBUTION OF THIS SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR DISTRIBUTION OF THIS SOFTWARE.  
 
-Short version: Play with it, improve it, enjoy it—but don’t sell it or claim it’s yours.
+Short version: Play with it, improve it, enjoy it — but don’t sell it or claim it’s yours.
