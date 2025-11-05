@@ -27,13 +27,13 @@ You can install **Incognito Theme** in a few different ways — pick what fits y
 
 **🪟 Windows (PowerShell in VS Code):**
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/mtdickmann/Incognito/releases/download/v1.0.8/incognito-1.0.8.vsix" -OutFile "$env:TEMP\incognito.vsix"
-code --install-extension "$env:TEMP\incognito.vsix"
+Invoke-WebRequest -Uri "https://github.com/mtdickmann/Incognito/releases/latest/download/incognito-1.0.8.vsix" -OutFile "$env:TEMP\\incognito.vsix"
+code --install-extension "$env:TEMP\\incognito.vsix"
 ```
 
 **🐧 Linux / 🧠 macOS:**
 ```bash
-curl -L -o /tmp/incognito.vsix https://github.com/mtdickmann/Incognito/releases/download/v1.0.8/incognito-1.0.8.vsix
+curl -L -o /tmp/incognito.vsix https://github.com/mtdickmann/Incognito/releases/latest/download/incognito-1.0.8.vsix
 code --install-extension /tmp/incognito.vsix
 ```
 
