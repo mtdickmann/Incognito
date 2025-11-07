@@ -1,1 +1,64 @@
-/modern_light_copy
+# ⚙️ folders & files
+/modern_light_copy/
+theme-test.sh
+
+# 🧩 Local-only folders
+/Reference/
+/temp/
+/backups/
+/session-tools/
+/logs/
+
+# 🔧 Build artifacts
+*.vsix
+*.zip
+*.tar
+*.gz
+
+# ⚙️ System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 🧠 VS Code workspace cruft
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 🪟 Windows shell leftovers
+$RECYCLE.BIN/
+*.lnk
+
+# 🧰 Node & VSCE build cache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# 🧪 Testing scratch files
+*.bak
+*.tmp
+*.old
+*.orig
+
+# 📦 Python or tool caches (just in case)
+/__pycache__/
+/*.pyc
+/.pytest_cache/
+*.pyo
+
+# 🔒 Environment and local config
+.env
+*.key
+*.pem
+*.crt
+*.csr
+
+# 🧑‍💻 Editor / IDE backups
+*.swp
+*.swo
+*~
