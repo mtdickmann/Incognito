@@ -2,7 +2,7 @@
   "name": "incognito",
   "displayName": "Incognito",
   "publisher": "mtdickmann",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "VS Code in Notepad++ disguise.",
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
   "contributes": {
     "themes": [
       {
-        "id": "incognito-theme",
+        "id": "mtdickmann",
         "label": "Incognito",
         "uiTheme": "vs",
         "path": "./themes/incognito.json"

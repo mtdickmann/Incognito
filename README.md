@@ -1,6 +1,4 @@
-<p>
-<img src="MD_Logo.png" alt="Incognito Theme Logo" width="200"/>
-</p>
+<p><img src="MD_Logo.png" alt="Incognito Theme Logo" width="200"/></p>
 
 # Incognito Theme  
 
@@ -29,14 +27,14 @@ You can install **Incognito Theme** in a few different ways — pick what fits y
 **🪟 Windows (PowerShell in VS Code):**
 
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/mtdickmann/Incognito/releases/latest/download/incognito-1.0.8.vsix" -OutFile "$env:TEMP\\incognito.vsix"
+Invoke-WebRequest -Uri "https://github.com/mtdickmann/Incognito/releases/latest/download/incognito-1.0.9.vsix" -OutFile "$env:TEMP\\incognito.vsix"
 code --install-extension "$env:TEMP\\incognito.vsix"
 ```
 
 **🐧 Linux / 🧠 macOS:**
 
 ```bash
-curl -L -o /tmp/incognito.vsix https://github.com/mtdickmann/Incognito/releases/latest/download/incognito-1.0.8.vsix
+curl -L -o /tmp/incognito.vsix https://github.com/mtdickmann/Incognito/releases/latest/download/incognito-1.0.9.vsix
 code --install-extension /tmp/incognito.vsix
 ```
 
@@ -50,13 +48,13 @@ If you prefer to download manually:
 
 1. Go to the releases page:  
    [https://github.com/mtdickmann/Incognito/releases](https://github.com/mtdickmann/Incognito/releases)
-2. Download the `.vsix` file (e.g. `incognito-1.0.8.vsix`)
+2. Download the `.vsix` file (e.g. `incognito-1.0.9.vsix`)
 3. Open **VS Code**
 4. Use the menu: **View → Terminal** (or the Terminal tab at the bottom)
 5. Run:
 
    ```bash
-   code --install-extension "C:\Users\<YOUR_USERNAME>\Downloads\incognito-1.0.8.vsix"
+   code --install-extension "C:\Users\<YOUR_USERNAME>\Downloads\incognito-1.0.9.vsix"
    ```
 
 6. Restart VS Code  
@@ -77,6 +75,10 @@ Check the repo’s README or Marketplace listing for updates.
 ---
 
 ### 🔄 Updating the Theme
+
+Theme can be Uninstalled/Disbaled directy from Extensions.
+
+Set theme to Auto-update from Extensions itself when a new version is available.
 
 To update manually:
 

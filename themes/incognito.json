@@ -63,7 +63,8 @@
     "list.activeSelectionIconForeground":"#000000",
     "list.hoverBackground":"#F2F2F2",
     "list.focusAndSelectionOutline":"#005FB8",
-    "menu.border":"#CECECE","menu.selectionBackground":"#005FB8",
+    "menu.border":"#CECECE",
+    "menu.selectionBackground":"#005FB8",
     "menu.selectionForeground":"#ffffff",
     "notebook.cellBorderColor":"#E5E5E5",
     "notebook.selectedCellBackground":"#C8DDF150",
@@ -255,18 +256,7 @@
   { "scope": ["punctuation.definition.comment.shebang.shell"], "settings": { "foreground": "#008000", "fontStyle": "bold" } },
 
   // =====  FORCE COMMENT OVERRIDES  =====
-  {
-    "scope": [
-      "comment.line.number-sign.shell meta.shebang.shell",
-      "comment.line.number-sign.shell",
-      "comment.line.shell",
-      "comment.shell",
-      "comment"
-    ],
-    "settings": {
-      "foreground": "#008000",
-      "fontStyle": "bold italic"
-    }
-  }
+  {"scope": ["comment.line.number-sign.shell meta.shebang.shell", "comment.line.number-sign.shell", "comment.line.shell", "comment.shell", "comment" ],
+    "settings": { "foreground": "#008000", "fontStyle": "bold italic" } }
   ]
 }
