@@ -100,3 +100,5 @@ See [LICENSE.txt](./LICENSE.txt) for full details.
 
 **© 2025 Michael Dickmann**  
 *Play with it, improve it, enjoy it — but don’t sell it or claim it’s yours.*
+
+Includes portions adapted from the VS Code “Modern Light” theme © Microsoft, licensed under the MIT License.
