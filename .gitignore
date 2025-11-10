@@ -54,12 +54,14 @@ package-lock.json
 
 # 🔒 Environment and local config
 .env
+.vscode
 *.key
 *.pem
 *.crt
 *.csr
 
 # 🧑‍💻 Editor / IDE backups
+*.code-workspace
 *.swp
 *.swo
 *~
