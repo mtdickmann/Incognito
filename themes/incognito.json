@@ -239,10 +239,10 @@
   { "scope": ["invalid.deprecated"], "settings": { "foreground": "#FFFFFF", "fontStyle": "italic" } },
 
   // ===== 🔟 HEREDOC =====
-  //{ "scope": ["keyword.operator.heredoc.shell"], "settings": { "foreground": "#ff000086", "fontStyle": "bold" } },
-  { "scope": ["punctuation.definition.string.heredoc.delimiter.shell"], "settings": { "foreground": "#FF0000", "fontStyle": "bold" } },
-  { "scope": ["string.quoted.heredoc", "string.unquoted.heredoc"], "settings": { "foreground": "#A0522D", "fontStyle": "" } },
- 
+  { "scope": ["keyword.operator.heredoc.shell"], "settings": { "foreground": "#FF0000", "fontStyle": "bold" } },
+  { "scope": ["keyword.operator.herestring.shell", "punctuation.definition.string.heredoc.delimiter.shell"], "settings": { "foreground": "#FF0000", "fontStyle": "bold" } }, 
+  { "scope": ["string.quoted.heredoc"], "settings": { "foreground": "#A0522D", "fontStyle": "" } },
+  { "scope": ["string.unquoted.heredoc"], "settings": { "foreground": "#A0522D", "fontStyle": "" } }, 
   
   // =====  11 TODO =====
   { "scope": ["keyword.other.documentation.todo.comment.shell"], "settings": { "foreground": "#008000", "fontStyle": "bold" } },
