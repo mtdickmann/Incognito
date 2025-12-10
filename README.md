@@ -23,6 +23,7 @@ You can install **Incognito Theme** in a few different ways — pick what fits y
 ---
 
 #### ⚡ Option 1 – Install directly from GitHub (Recommended)
+If you get an error see notes below for Fix
 
 **🪟 Windows (PowerShell in VS Code):**
 
@@ -88,6 +89,33 @@ code --uninstall-extension mtdickmann.incognito
 
 Then reinstall the latest `.vsix` using one of the methods above.
 
+---
+NOTES:
+---
+✅ Fastest Fix (No Reinstall Needed)
+cammand code is not in your PATH
+
+Open VS Code
+
+Press Ctrl + Shift + P
+
+Type:
+
+Shell Command: Install 'code' command in PATH
+
+
+Hit Enter
+
+Close ALL terminals
+
+Open PowerShell again
+
+Test:
+
+code --version
+
+
+If that prints a version number → you’re back in business 🚀
 ---
 
 ### ⚖️ License
