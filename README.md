@@ -4,7 +4,8 @@
 
 ## “VS Code in Notepad++ disguise.”
 
-A light, high-contrast theme designed for shell scripts, system editing, and anyone who wants VS Code to *look* like a classic text editor but *feel* like a modern IDE
+### A light, high-contrast theme designed for shell scripts, system editing, and anyone who wants VS Code to *look* like a classic text editor but *feel* like a modern IDE
+### *(Unfortuanately HEREDOCS don't show with a tinted background - still a limitation within VS Code)*
 ---
 
 ### 🌟 Features
@@ -90,31 +91,32 @@ code --uninstall-extension mtdickmann.incognito
 Then reinstall the latest `.vsix` using one of the methods above.
 
 ---
-NOTES:
+#### ✒️ NOTES:
 ---
 ✅ Fastest Fix (No Reinstall Needed)
 cammand code is not in your PATH
 
 Open VS Code
 
-Press Ctrl + Shift + P
-
+Press
+```bash
+Ctrl + Shift + P
+```
 Type:
 
-Shell Command: Install 'code' command in PATH
-
-
+   ```bash
+   Shell Command: Install 'code' command in PATH
+   ```
 Hit Enter
 
 Close ALL terminals
 
-Open PowerShell again
+Open ⁝PowerShell again
 
 Test:
-
-code --version
-
-
+   ```bash
+   code --version
+   ```
 If that prints a version number → you’re back in business 🚀
 ---
 
