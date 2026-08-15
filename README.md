@@ -94,7 +94,7 @@ Then reinstall the latest `.vsix` using one of the methods above.
 #### ✒️ NOTES:
 ---
 ✅ Fastest Fix (No Reinstall Needed)
-cammand code is not in your PATH
+command code is not in your PATH
 
 Open VS Code
 
